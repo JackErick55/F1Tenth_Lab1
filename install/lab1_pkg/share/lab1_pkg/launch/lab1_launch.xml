@@ -1,0 +1,8 @@
+<launch>
+    <node pkg="lab1_pkg" exec="talker">
+        <param name="v" value="$(var v)"/>
+        <param name="d" value="$(var d)"/>
+    </node>
+
+    <node pkg="lab1_pkg" exec="relay"/>
+</launch>

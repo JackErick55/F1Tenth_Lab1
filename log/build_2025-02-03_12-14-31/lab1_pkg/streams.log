@@ -1,0 +1,25 @@
+[0.258s] Invoking command in '/home/erickj1/lab1_ws/src/lab1_pkg': PYTHONPATH=/home/erickj1/lab1_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erickj1/lab1_ws/install/lab1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/erickj1/lab1_ws/build/lab1_pkg/build install --record /home/erickj1/lab1_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
+[0.358s] running egg_info
+[0.358s] writing ../../build/lab1_pkg/lab1_pkg.egg-info/PKG-INFO
+[0.358s] writing dependency_links to ../../build/lab1_pkg/lab1_pkg.egg-info/dependency_links.txt
+[0.358s] writing entry points to ../../build/lab1_pkg/lab1_pkg.egg-info/entry_points.txt
+[0.358s] writing requirements to ../../build/lab1_pkg/lab1_pkg.egg-info/requires.txt
+[0.358s] writing top-level names to ../../build/lab1_pkg/lab1_pkg.egg-info/top_level.txt
+[0.359s] reading manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[0.359s] writing manifest file '../../build/lab1_pkg/lab1_pkg.egg-info/SOURCES.txt'
+[0.359s] running build
+[0.359s] running build_py
+[0.359s] copying lab1_pkg/relay.py -> /home/erickj1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg
+[0.359s] running install
+[0.359s] running install_lib
+[0.360s] copying /home/erickj1/lab1_ws/build/lab1_pkg/build/lib/lab1_pkg/relay.py -> /home/erickj1/lab1_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg
+[0.360s] byte-compiling /home/erickj1/lab1_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg/relay.py to relay.cpython-310.pyc
+[0.360s] running install_data
+[0.360s] running install_egg_info
+[0.361s] removing '/home/erickj1/lab1_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[0.361s] Copying ../../build/lab1_pkg/lab1_pkg.egg-info to /home/erickj1/lab1_ws/install/lab1_pkg/lib/python3.10/site-packages/lab1_pkg-0.0.0-py3.10.egg-info
+[0.361s] running install_scripts
+[0.371s] Installing relay script to /home/erickj1/lab1_ws/install/lab1_pkg/lib/lab1_pkg
+[0.371s] Installing talker script to /home/erickj1/lab1_ws/install/lab1_pkg/lib/lab1_pkg
+[0.371s] writing list of installed files to '/home/erickj1/lab1_ws/build/lab1_pkg/install.log'
+[0.380s] Invoked command in '/home/erickj1/lab1_ws/src/lab1_pkg' returned '0': PYTHONPATH=/home/erickj1/lab1_ws/build/lab1_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/erickj1/lab1_ws/install/lab1_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/lab1_pkg build --build-base /home/erickj1/lab1_ws/build/lab1_pkg/build install --record /home/erickj1/lab1_ws/build/lab1_pkg/install.log --single-version-externally-managed install_data
